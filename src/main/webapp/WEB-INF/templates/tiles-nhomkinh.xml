@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+       
+<tiles-definitions>
+  <definition name="template.nhomkinhnhutviet" template="/WEB-INF/views/templates/nhomkinhnhutviet.jsp">
+    <put-attribute name="header" value="/WEB-INF/views/components/nhomkinhnhutviet/header.jsp" />
+    <put-attribute name="body" value="" />
+    <put-attribute name="footer" value="/WEB-INF/views/components/nhomkinhnhutviet/footer.jsp" />
+  </definition>
+  
+  <definition name="nhomkinhnhutviet.index" extends="template.nhomkinhnhutviet" >
+    <put-attribute name="body" value="/WEB-INF/views/views/nhomkinhnhutviet/index.jsp" />
+  </definition>
+
+  <definition name="nhomkinhnhutviet.news" extends="template.nhomkinhnhutviet" >
+    <put-attribute name="body" value="/WEB-INF/views/views/nhomkinhnhutviet/news.jsp" />
+  </definition>
+
+  <definition name="nhomkinhnhutviet.news-detail" extends="template.nhomkinhnhutviet" >
+    <put-attribute name="body" value="/WEB-INF/views/views/nhomkinhnhutviet/news-detail.jsp" />
+  </definition>
+
+  <definition name="nhomkinhnhutviet.product" extends="template.nhomkinhnhutviet" >
+    <put-attribute name="body" value="/WEB-INF/views/views/nhomkinhnhutviet/product.jsp" />
+  </definition>
+
+  <definition name="nhomkinhnhutviet.detail" extends="template.nhomkinhnhutviet" >
+    <put-attribute name="body" value="/WEB-INF/views/views/nhomkinhnhutviet/detail.jsp" />
+  </definition>
+
+  <definition name="nhomkinhnhutviet.contact" extends="template.nhomkinhnhutviet" >
+    <put-attribute name="body" value="/WEB-INF/views/views/nhomkinhnhutviet/contact.jsp" />
+  </definition>
+
+  <definition name="nhomkinhnhutviet.about" extends="template.nhomkinhnhutviet" >
+    <put-attribute name="body" value="/WEB-INF/views/views/nhomkinhnhutviet/about.jsp" />
+  </definition>
+</tiles-definitions>

@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/main/resources/jdbc/database.properties=UTF-8
+encoding//src/main/resources/messages/error.properties=UTF-8
+encoding//src/main/resources/messages/success.properties=UTF-8
+encoding//src/main/resources/messages/validator.properties=UTF-8
+encoding/<project>=UTF-8

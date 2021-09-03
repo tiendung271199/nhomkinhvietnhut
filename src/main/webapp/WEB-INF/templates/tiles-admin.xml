@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC  
+      "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  
+      "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">  
+<tiles-definitions>  
+   <definition name="admin.template" template="/WEB-INF/views/templates/admin.jsp"> 
+       <put-attribute name="header" value="/WEB-INF/views/components/admin/header.jsp" />
+       <put-attribute name="leftbar" value="/WEB-INF/views/components/admin/leftbar.jsp" />
+       <put-attribute name="body" value="" />
+       <put-attribute name="footer" value="/WEB-INF/views/components/admin/footer.jsp" />
+   </definition>  
+   
+   <definition name="admin.index" extends="admin.template">
+   		<put-attribute name="body" value="/WEB-INF/views/views/admin/index.jsp" />
+   </definition>
+   
+   <!-- cat product -->
+   <definition name="admin.cat.product.index" extends="admin.template">
+   		<put-attribute name="body" value="/WEB-INF/views/views/admin/cat-product/index.jsp" />
+   </definition>
+
+   <definition name="admin.cat.product.add" extends="admin.template">
+   		<put-attribute name="body" value="/WEB-INF/views/views/admin/cat-product/add.jsp" />
+   </definition>
+
+   <definition name="admin.cat.product.update" extends="admin.template">
+   		<put-attribute name="body" value="/WEB-INF/views/views/admin/cat-product/update.jsp" />
+   </definition>
+   
+   <!-- product -->
+   <definition name="admin.product.index" extends="admin.template">
+   		<put-attribute name="body" value="/WEB-INF/views/views/admin/product/index.jsp" />
+   </definition>
+
+   <definition name="admin.product.add" extends="admin.template">
+   		<put-attribute name="body" value="/WEB-INF/views/views/admin/product/add.jsp" />
+   </definition>
+
+   <definition name="admin.product.update" extends="admin.template">
+   		<put-attribute name="body" value="/WEB-INF/views/views/admin/product/update.jsp" />
+   </definition>
+
+   <definition name="admin.product.detail" extends="admin.template">
+   		<put-attribute name="body" value="/WEB-INF/views/views/admin/product/detail.jsp" />
+   </definition>
+
+   <definition name="admin.product.picture" extends="admin.template">
+   		<put-attribute name="body" value="/WEB-INF/views/views/admin/product/picture.jsp" />
+   </definition>
+   
+   <!-- cat news -->
+   <definition name="admin.cat.news.index" extends="admin.template">
+   		<put-attribute name="body" value="/WEB-INF/views/views/admin/cat-news/index.jsp" />
+   </definition>
+   
+   <definition name="admin.cat.news.add" extends="admin.template">
+   		<put-attribute name="body" value="/WEB-INF/views/views/admin/cat-news/add.jsp" />
+   </definition>
+
+   <definition name="admin.cat.news.update" extends="admin.template">
+   		<put-attribute name="body" value="/WEB-INF/views/views/admin/cat-news/update.jsp" />
+   </definition>
+
+	<!-- news -->
+   <definition name="admin.news.index" extends="admin.template">
+   		<put-attribute name="body" value="/WEB-INF/views/views/admin/news/index.jsp" />
+   </definition>
+
+   <definition name="admin.news.add" extends="admin.template">
+   		<put-attribute name="body" value="/WEB-INF/views/views/admin/news/add.jsp" />
+   </definition>
+</tiles-definitions>
