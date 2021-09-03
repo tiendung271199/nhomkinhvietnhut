@@ -74,7 +74,7 @@
 												</td>
 												<td class="center text-center">
 													<a href="${urlAdminProduct}/cap-nhat-san-pham/${stringUtil.makeSlug(product.name)}-${product.id}.html" title="" class="btn btn-primary"><span class="glyphicon glyphicon-pencil"></span> Sửa</a>
-				                                    <a href="${urlAdminProduct}/xoa-san-pham/${stringUtil.makeSlug(product.name)}-${product.id}.html" onclick="return confirm('Bạn có chắc muốn xoá bài viết \'${product.name}\' không?')" title="" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Xóa</a>
+				                                    <a href="${urlAdminProduct}/xoa-san-pham/${stringUtil.makeSlug(product.name)}-${product.id}.html" onclick="return confirm('Bạn có chắc muốn xoá sản phẩm \'${product.name}\' không?')" title="" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Xóa</a>
 												</td>
 											</tr>
 										</c:forEach>

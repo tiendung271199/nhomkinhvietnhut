@@ -59,7 +59,7 @@
 												<td>${cat.name}</td>
 												<td class="center text-center">
 													<a href="${urlAdminCatNews}/cap-nhat-danh-muc/${stringUtil.makeSlug(cat.name)}-${cat.id}.html" title="" class="btn btn-primary"><span class="glyphicon glyphicon-pencil "></span> Sửa</a>
-				                                    <a href="${urlAdminCatNews}/xoa-danh-muc/${stringUtil.makeSlug(cat.name)}-${cat.id}.html" onclick="return confirm('Bạn có chắc muốn xoá danh mục sản phẩm \'${cat.name}\' không?')" title="" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Xóa</a>
+				                                    <a href="${urlAdminCatNews}/xoa-danh-muc/${stringUtil.makeSlug(cat.name)}-${cat.id}.html" onclick="return confirm('Bạn có chắc muốn xoá danh mục tin tức \'${cat.name}\' không?')" title="" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span> Xóa</a>
 												</td>
 											</tr>
 										</c:forEach>

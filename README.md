@@ -1,2 +1,1 @@
-# nhomkinhvietnhut
-this is readme file
+# nhomkinhNhutViet

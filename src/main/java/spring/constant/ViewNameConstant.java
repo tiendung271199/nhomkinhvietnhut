@@ -31,8 +31,12 @@ public class ViewNameConstant {
 	
 	// news
 	public static final String ADMIN_NEWS_INDEX = "admin.news.index";
+	public static final String ADMIN_NEWS_DETAIL = "admin.news.detail";
 	public static final String ADMIN_NEWS_ADD = "admin.news.add";
 	public static final String ADMIN_NEWS_UPDATE = "admin.news.update";
+	
+	// contact
+	public static final String ADMIN_CONTACT_INDEX = "admin.contact.index";
 	
 	// error
 	public static final String ERROR_404 = "views/error/404";

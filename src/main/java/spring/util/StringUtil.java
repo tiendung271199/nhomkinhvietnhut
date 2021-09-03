@@ -21,7 +21,7 @@ public class StringUtil {
 
 	// format phone number
 	public static String beautifulPhone(String phone) {
-		return phone.replaceFirst("(\\d{4})(\\d{3})(\\d+)", "$1.$2.$3");
+		return phone.replaceFirst("(\\d{4})(\\d{3})(\\d+)", "$1 $2 $3");
 	}
 
 	// thay thế ký tự khoảng trắng thành ký tự "-"

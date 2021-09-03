@@ -54,12 +54,21 @@ public class URLConstant {
 	public static final String URL_ADMIN_NEWS_UPDATE = "tin-tuc/cap-nhat-tin-tuc/{name}-{id}.html";
 	public static final String URL_ADMIN_NEWS_DEL = "tin-tuc/xoa-tin-tuc/{name}-{id}.html";
 
+	// contact
+	public static final String URL_ADMIN_CONTACT_INDEX = "lien-he.html";
+	public static final String URL_ADMIN_CONTACT_INDEX_PAGINATION = "lien-he/trang-{page}.html";
+	public static final String URL_ADMIN_CONTACT_SEARCH = "lien-he/tim-kiem/{keywordURL}.html";
+	public static final String URL_ADMIN_CONTACT_SEARCH_PAGINATION = "lien-he/tim-kiem/{keywordURL}/trang-{page}.html";
+	public static final String URL_ADMIN_CONTACT_DEL = "lien-he/xoa-lien-he-{id}.html";
+	public static final String URL_ADMIN_CONTACT_STATUS = "lien-he/status"; // AJAX
+
 	// use for redirect
 	public static final String URL_ADMIN_CAT_PRODUCT_INDEX_REDIRECT = "admin/danh-muc-san-pham.html";
 	public static final String URL_ADMIN_PRODUCT_INDEX_REDIRECT = "admin/san-pham.html";
 	public static final String URL_ADMIN_PRODUCT_PICTURE_REDIRECT = "admin/san-pham/hinh-anh-san-pham/{name}-{id}.html";
 	public static final String URL_ADMIN_CAT_NEWS_INDEX_REDIRECT = "admin/danh-muc-tin-tuc.html";
 	public static final String URL_ADMIN_NEWS_INDEX_REDIRECT = "admin/tin-tuc.html";
+	public static final String URL_ADMIN_CONTACT_INDEX_REDIRECT = "admin/lien-he.html";
 
 	// error
 	public static final String URL_ERROR = "error";

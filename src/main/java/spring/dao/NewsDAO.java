@@ -41,7 +41,7 @@ public class NewsDAO extends AbstractDAO<News> {
 	public News findById(int id) {
 		try {
 			String sql = "SELECT * FROM news n INNER JOIN users u ON n.userId = u.id "
-					+ "INNER JOIN categories_new ON n.catId = c.id WHERE n.id = ?";
+					+ "INNER JOIN categories_new c ON n.catId = c.id WHERE n.id = ?";
 			return jdbcTemplate.query(sql, new ResultSetExtractor<News>() {
 
 				@Override
