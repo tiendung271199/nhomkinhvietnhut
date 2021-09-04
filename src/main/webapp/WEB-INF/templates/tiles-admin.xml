@@ -8,7 +8,7 @@
        <put-attribute name="leftbar" value="/WEB-INF/views/components/admin/leftbar.jsp" />
        <put-attribute name="body" value="" />
        <put-attribute name="footer" value="/WEB-INF/views/components/admin/footer.jsp" />
-   </definition>  
+   </definition>
    
    <definition name="admin.index" extends="admin.template">
    		<put-attribute name="body" value="/WEB-INF/views/views/admin/index.jsp" />
@@ -81,5 +81,10 @@
    <!-- contact -->
    <definition name="admin.contact.index" extends="admin.template">
    		<put-attribute name="body" value="/WEB-INF/views/views/admin/contact/index.jsp" />
+   </definition>
+
+   <!-- profile -->
+   <definition name="admin.profile" extends="admin.template">
+   		<put-attribute name="body" value="/WEB-INF/views/views/admin/profile.jsp" />
    </definition>
 </tiles-definitions>

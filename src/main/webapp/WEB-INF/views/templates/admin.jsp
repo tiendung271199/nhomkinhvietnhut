@@ -36,8 +36,9 @@
   <c:url value="/admin/tin-tuc" var="urlAdminNews" scope="application"></c:url>
   <c:url value="/admin/nguoi-dung" var="urlAdminUser" scope="application"></c:url>
   <c:url value="/admin/lien-he" var="urlAdminContact" scope="application"></c:url>
-  <c:url value="/admin/tai-khoan" var="urlProfile" scope="application"></c:url>
   <c:url value="/auth/logout" var="urlLogout" scope="application"></c:url>
+  <c:url value="/auth/dang-nhap" var="urlLogin" scope="application" ></c:url>
+  <c:url value="/admin/tai-khoan" var="urlProfile" scope="application"></c:url>
   
   <body>
   	<tiles:insertAttribute name="header" />

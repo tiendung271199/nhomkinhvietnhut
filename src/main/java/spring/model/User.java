@@ -1,5 +1,8 @@
 package spring.model;
 
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotBlank;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,21 +13,25 @@ import lombok.NoArgsConstructor;
 public class User {
 
 	private int id;
-	
+
 	private String username;
-	
+
+	@NotBlank
 	private String fullname;
-	
+
 	private String password;
-	
+
+	@NotBlank
+	@Email
 	private String email;
-	
+
+	@NotBlank
 	private String phone;
-	
+
 	private String avatar;
-	
+
 	private Role role;
-	
+
 	private int enabled;
 
 	// join table
@@ -41,5 +48,5 @@ public class User {
 		super();
 		this.id = id;
 	}
-	
+
 }

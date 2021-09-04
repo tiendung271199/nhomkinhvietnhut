@@ -62,6 +62,12 @@ public class URLConstant {
 	public static final String URL_ADMIN_CONTACT_DEL = "lien-he/xoa-lien-he-{id}.html";
 	public static final String URL_ADMIN_CONTACT_STATUS = "lien-he/status"; // AJAX
 
+	// profile
+	public static final String URL_ADMIN_PROFILE = "tai-khoan.html";
+	
+	// authentication
+	public static final String URL_ADMIN_LOGIN = "auth/dang-nhap.html";
+
 	// use for redirect
 	public static final String URL_ADMIN_CAT_PRODUCT_INDEX_REDIRECT = "admin/danh-muc-san-pham.html";
 	public static final String URL_ADMIN_PRODUCT_INDEX_REDIRECT = "admin/san-pham.html";
@@ -69,6 +75,7 @@ public class URLConstant {
 	public static final String URL_ADMIN_CAT_NEWS_INDEX_REDIRECT = "admin/danh-muc-tin-tuc.html";
 	public static final String URL_ADMIN_NEWS_INDEX_REDIRECT = "admin/tin-tuc.html";
 	public static final String URL_ADMIN_CONTACT_INDEX_REDIRECT = "admin/lien-he.html";
+	public static final String URL_ADMIN_PROFILE_REDIRECT = "admin/tai-khoan.html";
 
 	// error
 	public static final String URL_ERROR = "error";

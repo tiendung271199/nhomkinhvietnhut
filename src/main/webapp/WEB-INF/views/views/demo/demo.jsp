@@ -14,5 +14,7 @@
 		<input type="file" name="picture" multiple="multiple" />
 		<input type="submit" value="submit" />
 	</form>
+	
+	${demo}
 </body>
 </html>

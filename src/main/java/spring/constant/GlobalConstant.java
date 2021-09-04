@@ -8,6 +8,8 @@ public class GlobalConstant {
 
 	public static final String DIR_UPLOAD_PICTURE_NEWS = "news/image";
 
+	public static final String DIR_UPLOAD_AVATAR = "avatar";
+
 	public static final String EMPTY = "";
 
 	public static final int TOTAL_ROW = 12;

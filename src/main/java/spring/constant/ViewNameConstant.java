@@ -37,6 +37,12 @@ public class ViewNameConstant {
 	
 	// contact
 	public static final String ADMIN_CONTACT_INDEX = "admin.contact.index";
+
+	// profile
+	public static final String ADMIN_PROFILE = "admin.profile";
+
+	// profile
+	public static final String AUTH_LOGIN = "auth.login";
 	
 	// error
 	public static final String ERROR_404 = "views/error/404";
