@@ -63,7 +63,7 @@
         	<c:forEach items="${listProducts}" var="product">
         		<div class="col-xl-3 col-md-4 col-sm-6 project ui cat-${product.cat.id}">
 		            <a href="#" class="service-work card border-0 text-white shadow-sm overflow-hidden mx-5 m-sm-0">
-		                <img class="service card-img" src="${contextPath}/assets/img/services-01.jpg" alt="Card image">
+		                <img class="service card-img" src="${productImage}/${product}" alt="Card image">
 		                <div class="service-work-vertical card-img-overlay d-flex align-items-end">
 		                    <div class="service-work-content text-left text-light">
 		                        <span class="btn btn-outline-light rounded-pill mb-lg-3 px-lg-4 light-300">${stringUtil.setStringCompact(product.name, 10)}</span>
