@@ -3,7 +3,7 @@
 <footer class="bg-secondary pt-4">
     <div class="container">
         <div class="row py-4">
-            <div class="col-lg-3 col-12 align-left">
+            <div class="col-lg-4 col-12 align-left">
                 <a class="navbar-brand" href="index.html">
                     <i class='bx bx-buildings bx-sm text-light'></i>
                     <span class="text-light h5">Nhôm Kính</span> <span class="text-light h5 semi-bold-600">Nhựt Việt</span>
@@ -21,7 +21,7 @@
                 </ul>
             </div>
 
-            <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+            <div class="col-lg-4 col-md-4 my-sm-0 mt-4">
                 <h2 class="h4 pb-lg-3 text-light light-300">Doanh nghiệp</h2>
                     <ul class="list-unstyled text-light light-300">
                         <li class="pb-2">
@@ -42,25 +42,8 @@
            			</ul>
             </div>
 
-            <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
-                <h2 class="h4 pb-lg-3 text-light light-300">Điều khoản sử dụng</h2>
-                <ul class="list-unstyled text-light light-300">
-                    <li class="pb-2">
-                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Chính sách và quy định chung</a>
-                    </li>
-                    <li class="pb-2">
-                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Chính sách bảo mật thông tin</a>
-                    </li>
-                    <li class="pb-2">
-                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Quy định và hình thức thanh toán</a>
-                    </li>
-                    <li class="pb-2">
-                        <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#">Chính sách đổi trả và bảo hành</a>
-                    </li>
-                </ul>
-            </div>
 
-            <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
+            <div class="col-lg-4 col-md-4 my-sm-0 mt-4">
                 <h2 class="h4 pb-lg-3 text-light light-300">Thông tin liên hệ</h2>
                 <ul class="list-unstyled text-light light-300">
                     <li class="pb-2">

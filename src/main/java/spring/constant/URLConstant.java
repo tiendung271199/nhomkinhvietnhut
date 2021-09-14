@@ -7,9 +7,10 @@ public class URLConstant {
 	public static final String URL_NEWS = "tin-tuc.html";
 	public static final String URL_NEWS_DETAIL = "chi-tiet-tin-tuc.html";
 	public static final String URL_PRODUCT = "san-pham.html";
-	public static final String URL_PRODUCT_DETAIL = "chi-tiet-san-pham.html";
 	public static final String URL_CONTACT = "lien-he.html";
 	public static final String URL_ABOUT = "doanh-nghiep.html";
+	public static final String URL_PRODUCT_PAGINATION = "san-pham/trang-{page}.html";
+	public static final String URL_PRODUCT_DETAIL = "chi-tiet-san-pham-{id}.html";
 
 	public static final String URL_ADMIN = "admin";
 	public static final String URL_ADMIN_INDEX = "trang-chu.html";
@@ -82,5 +83,6 @@ public class URLConstant {
 	public static final String URL_ERROR_404 = "404";
 	public static final String URL_ERROR_403 = "403";
 	public static final String URL_ERROR_400 = "400";
+	
 
 }

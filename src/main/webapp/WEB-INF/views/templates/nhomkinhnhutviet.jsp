@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <c:url value="/resources/nhomkinhnhutviet" var="contextPath" scope="application"></c:url>
+    <c:url value="/resources/nhomkinhnhutviet/upload/product/image" var="productImage" scope="application"></c:url>
     
     <link rel="apple-touch-icon" href="${contextPath}/assets/img/apple-icon.png">
     <link rel="shortcut icon" type="image/x-icon" href="${contextPath}/assets/img/favicon.ico">
